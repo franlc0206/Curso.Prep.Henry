@@ -171,8 +171,9 @@ function esPrimo(numero) {
     }
 
   }
-
-  return numero !== 1;
+    if( numero !== 1){
+  return true;
+}
 }
   // Devuelve "true" si "numero" es primo
   // De lo contrario devuelve "falso"
